@@ -1,2 +1,2 @@
-# palmprint
-This is a preliminary project conducted during my AI learning journey, under the guidance of Professor Jizhao Liu. We successfully performed classification using PCA+KNN/SVM on a dataset containing both Hong Kong Polytechnic University data and my own palm data. 
+# palmprint recognition
+This is a preliminary project conducted during my AI learning journey, under the guidance of Professor Jizhao Liu. We successfully performed classification using PCA+KNN/SVM on a dataset containing both Hong Kong Polytechnic University data and my own palm data. The code was executed on Colab, and the final code can be found in the 'final.ipynb' file. It encompasses feature extraction, training, and final testing, excluding the initial data preprocessing.

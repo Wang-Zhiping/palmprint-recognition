@@ -1,8 +1,51 @@
-# palmprint recognition
-This is a preliminary project conducted during my AI learning journey, under the guidance of Professor Jizhao Liu. We successfully performed classification using PCA+KNN/SVM on a dataset containing both Hong Kong Polytechnic University data and my own palm data. The code was executed on Colab, and the final code can be found in the 'final.ipynb' file. It encompasses feature extraction, training, and final testing, excluding the initial data preprocessing.
+# Palmprint Recognition (Gabor + PCA + KNN / SVM)
 
-There are 101 objects in this dataset, each object has 6 images, of which the first 5 are used for training and testing, i.e., a total of 606 images, and the last 1 image (101 images in total) is used for final training. It takes about 1 minute of training time in colab's tpu environment.
+This project was conducted during my **second undergraduate year** as part of my early AI learning journey, under the guidance of **Professor Jizhao Liu**.
 
-Since most of the files are larger than 25M in size, it is not easy to show on Git Hub, visit my [google drive](https://drive.google.com/drive/folders/1yfT0I9lCGvcaNuiCcEzSNtlbPGl-NzZa?) to view the dataset and code.
+It presents a classical palmprint recognition pipeline based on **Gabor feature extraction** and **PCA + KNN / PCA + SVM** classification.  
+All code was implemented and executed on **Google Colab**, and can be run directly.
 
-https://drive.google.com/drive/folders/1yfT0I9lCGvcaNuiCcEzSNtlbPGl-NzZa? usp=sharing
+---
+
+## Overview
+
+- Hand-crafted feature extraction using **Gabor filters**
+- Dimensionality reduction via **PCA**
+- Classification using **KNN** and **SVM**
+- Dataset includes palmprint data from **Hong Kong Polytechnic University** and my own collected samples
+
+The complete pipeline (feature extraction, training, and testing) is provided in `final.ipynb`, excluding the initial raw data preprocessing.
+
+---
+
+## Dataset
+
+- **101 subjects**
+- **6 images per subject** (total **606 images**)
+
+Data split:
+- First **5 images per subject** → training / validation
+- Last **1 image per subject** → final testing (101 images)
+
+Training takes approximately **1 minute** on **Google Colab (TPU)**.
+
+Due to GitHub file size limits, the dataset and intermediate files are hosted on Google Drive:
+
+👉 https://drive.google.com/drive/folders/1yfT0I9lCGvcaNuiCcEzSNtlbPGl-NzZa?usp=sharing
+
+---
+
+## Repository Structure
+
+.
+├── makenpy.ipynb # Gabor feature extraction & feature file generation
+├── final.ipynb # PCA + KNN/SVM training and evaluation
+└── README.md
+
+
+---
+
+## Acknowledgements
+
+- **Professor Jizhao Liu** — supervision and guidance  
+- **Hong Kong Polytechnic University Palmprint Dataset**

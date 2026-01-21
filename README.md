@@ -1,8 +1,8 @@
 # Palmprint Recognition (Gabor + PCA + KNN / SVM)
 
-This project was conducted during my **second undergraduate year** as part of my early AI learning journey, under the guidance of **Professor Jizhao Liu**.
+This project was conducted during my second undergraduate year as part of my early AI learning journey, under the guidance of Professor Jizhao Liu.
 
-It presents a classical palmprint recognition pipeline based on **Gabor feature extraction** and **PCA + KNN / PCA + SVM** classification.  
+It presents a classical palmprint recognition pipeline based on Gabor feature extraction and PCA + KNN / PCA + SVM classification.  
 All code was implemented and executed on **Google Colab**, and can be run directly.
 
 ---

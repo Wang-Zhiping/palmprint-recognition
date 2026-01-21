@@ -4,6 +4,7 @@ This project was conducted during my second undergraduate year as part of my ear
 
 It presents a classical palmprint recognition pipeline based on Gabor feature extraction and PCA + KNN / PCA + SVM classification.  
 All code was implemented and executed on **Google Colab**, and can be run directly.
+https://drive.google.com/drive/folders/1yfT0I9lCGvcaNuiCcEzSNtlbPGl-NzZa?usp=sharing
 
 ---
 
